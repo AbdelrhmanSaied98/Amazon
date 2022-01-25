@@ -9,3 +9,41 @@ h1
 {
     color: brown;
 }
+.nowarp
+{
+    white-space: nowrap;
+}
+
+/* Mobile */
+#mySlider,#mySlider2,#mySlider3,#mySlider3{
+    display: block;
+}
+
+@media (max-width: 1290px) 
+{
+    #mySlider
+    {
+        display: none;
+    }
+}
+@media (max-width: 1205px) 
+{
+    #mySlider2
+    {
+        display: none;
+    }
+}
+@media (max-width: 1125px) 
+{
+    #mySlider3
+    {
+        display: none;
+    }
+}
+@media (max-width: 1014px) 
+{
+    #mySlider4
+    {
+        display: none;
+    }
+}
