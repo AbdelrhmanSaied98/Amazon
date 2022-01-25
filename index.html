@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3ccbb3fc36.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <title>Your Souq is now Amazon.eg</title>
 </head>
 
 <body>
-
+    <!-- FristNav -->
     <nav id="nav_top" class="navbar-expand navbar-light py-1" style="background-color: #131921;">
         <div class="container-fluid">
             <ul class="nav-fill navbar-nav ">
-                <li class="nav-item" style="width: 100px;height: 33px;">
-                    <a class="w-100" aria-current="page" href="#">
-                        <div class="py-2 px-1 w-100">
-                            <img src="NicePng_amazon-logo-png_167642.png" class="w-100">
+                <li class="nav-item">
+                    <a class="" aria-current="page" href="#">
+                        <div class="py-2 px-1">
+                            <img src="img/NicePng_amazon-logo-png_167642.png" style="width: 100%;height: 33px;">
                         </div>
                     </a>
                 </li>
-                <li class="nav-item text-center">
+                <li class="nav-item" id = "FristNavItem4">
                     <a class="nav-link active " aria-current="page" href="#">
                         <div class="d-flex">
                             <i class="fas fa-map-marker-alt text-white mt-3"></i>
@@ -43,17 +43,17 @@
                                 data-bs-toggle="dropdown" aria-expanded="false"
                                 style="background-color: #F7F7F7;color: black; font-size: 10px;">All</button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">All Cateories</a>
+                                <li><a class="dropdown-item dropDownItem" href="#">All Cateories</a>
                                 </li>
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">Amazom Devices</a>
+                                <li><a class="dropdown-item dropDownItem" href="#">Amazom Devices</a>
                                 </li>
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">Art, Crafts &
+                                <li><a class="dropdown-item dropDownItem" href="#">Art, Crafts &
                                         sewing</a></li>
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">Baby</a></li>
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">Books</a></li>
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">Software</a></li>
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">Sports</a></li>
-                                <li><a class="dropdown-item" style="font-size: 15px;" href="#">Vido Games</a></li>
+                                <li><a class="dropdown-item dropDownItem" href="#">Baby</a></li>
+                                <li><a class="dropdown-item dropDownItem" href="#">Books</a></li>
+                                <li><a class="dropdown-item dropDownItem" href="#">Software</a></li>
+                                <li><a class="dropdown-item dropDownItem" href="#">Sports</a></li>
+                                <li><a class="dropdown-item dropDownItem" href="#">Vido Games</a></li>
                             </ul>
 
 
@@ -64,18 +64,18 @@
                                 class="fas fa-search"></i></button>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" >
 
                     <div class="d-flex">
                         <div class="pt-3 pe-2">
-                            <img src="128px-Flag_of_Egypt.svg.png" style="width: 25px; height: 17px;" alt="">
+                            <img src="img/128px-Flag_of_Egypt.svg.png" style="width: 25px; height: 17px;" alt="">
                         </div>
                         <i class="fas fa-angle-down pt-4 text-white nowarp"></i>
                     </div>
 
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item" id = "FristNavItem3">
                     <div class="mt-2">
                         <span class="d-block text-white fw-lighter nowarp" style="font-size: 12px;">Hello, Sign
                             in</span>
@@ -84,22 +84,23 @@
                             class="fas fa-angle-down text-white nowarp"></i></span>
 
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item" id = "FristNavItem2">
                     <span class="d-block text-white fw-bold pt-4" style="font-size: 12px;">Orders</span>
                 </li>
+                <li>
+                    <i class="fas fa-cart-arrow-down text-white pt-3 pe-2" style="font-size: 30px;"></i>
+                </li>
 
-                <li class="nav-item">
-                    <div class="d-flex ps-3">
-                        <i class="fas fa-cart-arrow-down text-white pt-3 pe-2" style="font-size: 30px;"></i>
+                <li class="nav-item" id="FristNavItem1" >
+                        
                         <span class="d-block text-white fw-bold pt-4" style="font-size: 12px;">Cart</span>
-                    </div>
 
                 </li>
             </ul>
         </div>
     </nav>
 
-    <nav class="navbar navbar-expand  py-0 px-3 d-flex justify-content-between" style="background-color: #232F3E;">
+    <nav class="navbar navbar-expand  py-0 d-flex justify-content-between" style="background-color: #232F3E;">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -128,47 +129,38 @@
                     <a class="nav-link text-white" style="font-size: 14px;" href="#">Help</a>
                 </li>
                 <li>
-                    <a class="nav-link text-white" style="font-size: 14px;" href="#">Fashion</a>
+                    <a id="SecondNavItem6" class="nav-link text-white" style="font-size: 14px;" href="#">Fashion</a>
                 </li>
                 <li>
-                    <a class="nav-link text-white" style="font-size: 14px;" href="#">Grocery</a>
+                    <a id="SecondNavItem5" class="nav-link text-white" style="font-size: 14px;" href="#">Grocery</a>
                 </li>
                 <li>
-                    <a id="mySlider4" class="nav-link text-white" style="font-size: 14px;" href="#">Perfumes</a>
+                    <a id="SecondNavItem4" class="nav-link text-white" style="font-size: 14px;" href="#">Perfumes</a>
                 </li>
                 <li>
-                    <a id="mySlider3" class="nav-link text-white nowarp" style="font-size: 14px;" href="#">Mobile
+                    <a id="SecondNavItem3" class="nav-link text-white nowarp" style="font-size: 14px;" href="#">Mobile
                         Phones</a>
                 </li>
                 <li>
-                    <a id="mySlider2" class="nav-link text-white " style="font-size: 14px;" href="#">Electronics</a>
+                    <a id="SecondNavItem2" class="nav-link text-white " style="font-size: 14px;" href="#">Electronics</a>
                 </li>
                 <li>
-                    <a id="mySlider" class="nav-link text-white" style="font-size: 14px;" href="#">Appliances</a>
+                    <a id="SecondNavItem1" class="nav-link text-white" style="font-size: 14px;" href="#">Appliances</a>
                 </li>
 
             </ul>
         </div>
-        <nav class="nav navbar-expand">
+        <nav class="nav navbar-expand" id="myImage">
             <ul class="navbar-nav nav-fill">
                 <li>
-                    <img src="Header-Trust-Image-EN._CB668019287_.jpg" class="w-100" alt="">
+                    <img src="img/Header-Trust-Image-EN._CB668019287_.jpg" class="w-100" alt="">
                 </li>
             </ul>
         </nav>
     </nav>
 
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop"
-        aria-labelledby="offcanvasWithBackdropLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <p>.....</p>
-        </div>
-    </div>
+    
 
 
 
@@ -179,19 +171,19 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="61UdewB+FpL._SX3000_.jpg" class="d-block w-100" alt="...">
+                    <img src="img/61UdewB+FpL._SX3000_.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="71nZsV4m8yL._SX3000_.jpg" class="d-block w-100" alt="...">
+                    <img src="img/71nZsV4m8yL._SX3000_.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="61QmGQLwvfL._SX3000_.jpg" class="d-block w-100" alt="...">
+                    <img src="img/61QmGQLwvfL._SX3000_.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="71P5zrNVYZL._SX3000_.jpg" class="d-block w-100" alt="...">
+                    <img src="img/71P5zrNVYZL._SX3000_.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="61Bu4h-VnJL._SX3000_.jpg" class="d-block w-100" alt="...">
+                    <img src="img/61Bu4h-VnJL._SX3000_.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
 
@@ -223,12 +215,12 @@
 
                                 <div class="d-flex justify-content-between pb-2">
                                     <div style="width: 45%;">
-                                        <img src="./Products/71P5zrNVYZL._SX3000_.jpg" class="card-img-top d-block"
+                                        <img src="img/Products/71P5zrNVYZL._SX3000_.jpg" class="card-img-top d-block"
                                             style="width: 100%;">
                                         <span style="font-size: 12px;">Laptops</span>
                                     </div>
                                     <div style="width: 45%;">
-                                        <img src="./Products/Feb_2in1_1x._SY116_CB639626083_.jpg"
+                                        <img src="img/Products/Feb_2in1_1x._SY116_CB639626083_.jpg"
                                             class="card-img-top d-block" style="width: 100%;">
                                         <span style="font-size: 12px;">2-in-1</span>
                                     </div>
@@ -236,12 +228,12 @@
 
                                 <div class="d-flex justify-content-between">
                                     <div style="width: 45%;">
-                                        <img src="./Products/Feb_Gaming_1x._SY116_CB639626083_.jpg"
+                                        <img src="img/Products/Feb_Gaming_1x._SY116_CB639626083_.jpg"
                                             class="card-img-top d-block" style="width: 100%;">
                                         <span style="font-size: 12px;">Gaming Labtops</span>
                                     </div>
                                     <div style="width: 45%;">
-                                        <img src="./Products/Feb_Tablets_1x._SY116_CB639625955_.jpg"
+                                        <img src="img/Products/Feb_Tablets_1x._SY116_CB639625955_.jpg"
                                             class="card-img-top d-block" style="width: 100%;">
                                         <span style="font-size: 12px;">Tablets</span>
                                     </div>
@@ -267,7 +259,7 @@
 
                             <div class="px-3">
 
-                                <img src="./Products/XCM_Manual_1396328_4379579_Egypt_EG_BAU_GW_DC_SL_WinterFashion_Store_379x304_1X._SY304_CB650636675_.jpg"
+                                <img src="img/Products/XCM_Manual_1396328_4379579_Egypt_EG_BAU_GW_DC_SL_WinterFashion_Store_379x304_1X._SY304_CB650636675_.jpg"
                                     class="card-img-top d-block" style="width: 100%;">
 
 
@@ -292,7 +284,7 @@
 
                             <div class="px-3">
 
-                                <img src="./Products/XCM_Manual_1396328_4379583_Egypt_EG_BAU_GW_DC_SL_Womens_Watches_379x304_1X._SY304_CB650636675_.jpg"
+                                <img src="img/Products/XCM_Manual_1396328_4379583_Egypt_EG_BAU_GW_DC_SL_Womens_Watches_379x304_1X._SY304_CB650636675_.jpg"
                                     class="card-img-top d-block" style="width: 100%;">
 
 
@@ -319,12 +311,12 @@
 
                                 <div class="d-flex justify-content-between pb-2">
                                     <div style="width: 45%;">
-                                        <img src="./Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card1x402X_3941096_186x116_2X._SY116_CB663838653_.jpg"
+                                        <img src="img/Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card1x402X_3941096_186x116_2X._SY116_CB663838653_.jpg"
                                             class="card-img-top d-block" style="width: 100%;">
                                         <span style="font-size: 12px;">Tops</span>
                                     </div>
                                     <div style="width: 45%;">
-                                        <img src="./Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card2x402X_3941099_186x116_2X._SY116_CB663838653_.jpg"
+                                        <img src="img/Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card2x402X_3941099_186x116_2X._SY116_CB663838653_.jpg"
                                             class="card-img-top d-block" style="width: 100%;">
                                         <span style="font-size: 12px;">Pants</span>
                                     </div>
@@ -332,12 +324,12 @@
 
                                 <div class="d-flex justify-content-between">
                                     <div style="width: 45%;">
-                                        <img src="./Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card3x402X_3941097_186x116_2X._SY116_CB663838603_.jpg"
+                                        <img src="img/Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card3x402X_3941097_186x116_2X._SY116_CB663838603_.jpg"
                                             class="card-img-top d-block" style="width: 100%;">
                                         <span style="font-size: 12px;">Sportswear</span>
                                     </div>
                                     <div style="width: 45%;">
-                                        <img src="./Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card4x402X_3941098_186x116_2X._SY116_CB663838603_.jpg"
+                                        <img src="img/Products/XCM_Manual_1336655_Egypt_SR_EG_GW_QC_SL_MenClothing_Card4x402X_3941098_186x116_2X._SY116_CB663838603_.jpg"
                                             class="card-img-top d-block" style="width: 100%;">
                                         <span style="font-size: 12px;">Undergarments</span>
                                     </div>
@@ -371,7 +363,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/XCM_Manual_1397527_4402463_Egypt_EG_BAU_DC_OHL_Small_appliances_DC_2x_379x304_1X._SY304_CB649320776_.jpg"
+                                    <img src="img/Products/XCM_Manual_1397527_4402463_Egypt_EG_BAU_DC_OHL_Small_appliances_DC_2x_379x304_1X._SY304_CB649320776_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -397,7 +389,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/XCM_Manual_1362703_EG_GW_DC_3P_Coupon_260x260_EN_f6f240b3-eaf0-44ac-9d5a-4224d1997ac2._SY304_CB640766244_.jpg"
+                                    <img src="img/Products/XCM_Manual_1362703_EG_GW_DC_3P_Coupon_260x260_EN_f6f240b3-eaf0-44ac-9d5a-4224d1997ac2._SY304_CB640766244_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -424,7 +416,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/XCM_Manual_1346198_1765818_Egypt_1336653_SR_EG_DBSingle_PetSupplies_1x_3953521_379x304_en_AE._SY304_CB662811665_.jpg"
+                                    <img src="img/Products/XCM_Manual_1346198_1765818_Egypt_1336653_SR_EG_DBSingle_PetSupplies_1x_3953521_379x304_en_AE._SY304_CB662811665_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -451,7 +443,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/video_thumb_comb_create_acct_web_260x260_en._SY304_CB642157630_.jpg"
+                                    <img src="img/Products/video_thumb_comb_create_acct_web_260x260_en._SY304_CB642157630_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -475,9 +467,10 @@
                 <br>
                 <!-- carosel -->
                 <div class="mx-3 bg-white">
-                    <div class="d-flex align-content-center p-3">
-                        <h2 style="font-size: 21px;font-weight: bold;">Shop top picks in Sports</h2>
-                        <span class="ps-3" style="font-size:14px;line-height: 32px;color: #007185;">Explore more</span>
+                    <div class="d-flex align-content-center p-3 nowarp">
+                        <h2 style="font-size: 3vh;font-weight: bold;">Shop top picks in Sports</h2>
+                        <span class="ps-2 nowarp" style="font-size:2vh;line-height: 32px;color: #007185;">Explore
+                            more</span>
                     </div>
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -488,70 +481,76 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-inner" style="height: 200px;">
+                        <div class="carousel-inner" style="max-height: 250px;">
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-2">
-                                        <img src="Products/319EtgNteaS._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/319EtgNteaS._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61+oaltDpTL._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/61+oaltDpTL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61kuM28u10L._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/61kuM28u10L._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61LzrDX4CRL._AC_SY200_.jpg" class="  " alt="...">
+                                        <img src="img/Products/61LzrDX4CRL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61BKcGBcKBL._AC_SY200_.jpg" class="  " alt="...">
+                                        <img src="img/Products/61BKcGBcKBL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/51OXvEARIES._AC_SY200_.jpg" class=" " alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-2">
-                                        <img src="Products/51OXvEARIES._AC_SY200_ (1).jpg" class=" " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/41ICbfWfCkL._AC_SY200_.jpg" class=" " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/51q-1kB8QaL._AC_SY200_.jpg" class=" " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/41Kt5MYTo4L._AC_SY200_.jpg" class="  " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/51khe8wXNaL._AC_SY200_.jpg" class="  " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/71JuObq236L._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/51OXvEARIES._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-2">
-                                        <img src="Products/51SCwgUr9GS._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/51OXvEARIES._AC_SY200_ (1).jpg" width="100%" class=" "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/411m+6M0wJS._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/41ICbfWfCkL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/319EtgNteaS._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/51q-1kB8QaL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/412mCYZXNcL._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/41Kt5MYTo4L._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/41E0r9JkuwS._AC_SY200_.jpg" class="  " alt="...">
+                                        <img src="img/Products/51khe8wXNaL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61umK+hroJL._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/71JuObq236L._AC_SY200_.jpg" width="100%" class=" " alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="img/Products/51SCwgUr9GS._AC_SY200_.jpg" width="100%" class="" alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/411m+6M0wJS._AC_SY200_.jpg" width="100%" class="" alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/319EtgNteaS._AC_SY200_.jpg" width="100%" class="" alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/51khe8wXNaL._AC_SY200_.jpg" width="100%" class=" " alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/41E0r9JkuwS._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/61kuM28u10L._AC_SY200_.jpg" width="100%" class="" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -572,9 +571,10 @@
                 <br>
                 <!-- carosel -->
                 <div class="mx-3 bg-white">
-                    <div class="d-flex align-content-center p-3">
-                        <h2 style="font-size: 21px;font-weight: bold;">Top Picks for Toys</h2>
-                        <span class="ps-3" style="font-size:14px;line-height: 32px;color: #007185;">Explore more</span>
+                    <div class="d-flex align-content-center p-3 nowarp">
+                        <h2 style="font-size: 3vh;font-weight: bold;">Top Picks for Toys</h2>
+                        <span class="ps-2 nowarp" style="font-size:2vh;line-height: 32px;color: #007185;">Explore
+                            more</span>
                     </div>
                     <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -585,70 +585,75 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-inner" style="height: 200px;">
+                        <div class="carousel-inner" style="max-height: 250px;">
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-2">
-                                        <img src="Products/61jIyyNIBOL._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/61jIyyNIBOL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/41aHnW2t22L._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/51Eq+yA33CL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61jRdz+B-mL._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/61jRdz+B-mL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61Nh3LF+AmL._AC_SY200_.jpg" class="  " alt="...">
+                                        <img src="img/Products/61Nh3LF+AmL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/41+IF+a59RL._AC_SY200_.jpg" class="  " alt="...">
+                                        <img src="img/Products/41+IF+a59RL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61rD+kiKxFL._AC_SY200_.jpg" class=" " alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-2">
-                                        <img src="Products/51Eq+yA33CL._AC_SY200_.jpg" class=" " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/41TnY8cTW-L._AC_SY200_.jpg" class=" " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/41ktYiJysaL._AC_SY200_.jpg" class=" " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/81VOoeYavgL._AC_SY200_.jpg" class="  " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/71rtDkrFvYS._AC_SY200_.jpg" class="  " alt="...">
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="Products/41+OmKs6NnL._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/61rD+kiKxFL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-2">
-                                        <img src="Products/51Eq+yA33CL._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/51Eq+yA33CL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/71dXpSYFkiL._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/41TnY8cTW-L._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/41+IF+a59RL._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/41ktYiJysaL._AC_SY200_.jpg" width="100%" class=" " alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/81VOoeYavgL._AC_SY200_.jpg" class=" " alt="...">
+                                        <img src="img/Products/71dXpSYFkiL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/71rtDkrFvYS._AC_SY200_.jpg" class="  " alt="...">
+                                        <img src="img/Products/41+IF+a59RL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
                                     </div>
                                     <div class="col-2">
-                                        <img src="Products/61Nh3LF+AmL._AC_SY200_.jpg" class="" alt="...">
+                                        <img src="img/Products/41+OmKs6NnL._AC_SY200_.jpg" width="100%" class=" " alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="img/Products/51Eq+yA33CL._AC_SY200_.jpg" width="100%" class="" alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/71dXpSYFkiL._AC_SY200_.jpg" width="100%" class="" alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/41+IF+a59RL._AC_SY200_.jpg" width="100%" class="" alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/61jIyyNIBOL._AC_SY200_.jpg" width="100%" class=" " alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/61jRdz+B-mL._AC_SY200_.jpg" width="100%" class="  "
+                                            alt="...">
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/Products/61Nh3LF+AmL._AC_SY200_.jpg" width="100%" class="" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -683,7 +688,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/XCM_Manual_1346198_1765818_Egypt_1336653_SR_EG_DBSingle_BabyGear_1x_3953519_379x304_en_AE._SY304_CB662811665_.jpg"
+                                    <img src="img/Products/XCM_Manual_1346198_1765818_Egypt_1336653_SR_EG_DBSingle_BabyGear_1x_3953519_379x304_en_AE._SY304_CB662811665_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -709,7 +714,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/XCM_Manual_1343337_Egypt_SR_EG_GW_SC_HomeEntertainmentx402X_3953438_379x304_2X._SY304_CB664627919_.jpg"
+                                    <img src="img/Products/XCM_Manual_1343337_Egypt_SR_EG_GW_SC_HomeEntertainmentx402X_3953438_379x304_2X._SY304_CB664627919_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -735,7 +740,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/LowresKindleNGRkOTAzNjYt-Mzg0MTMyMGQt-w379._SY304_CB663821444_.jpg"
+                                    <img src="img/Products/LowresKindleNGRkOTAzNjYt-Mzg0MTMyMGQt-w379._SY304_CB663821444_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -761,7 +766,7 @@
 
                                 <div class="px-3">
 
-                                    <img src="./Products/XCM_Manual_1396328_4379582_Egypt_EG_BAU_GW_DC_SL_Eyewear_379x304_1X._SY304_CB650636675_.jpg"
+                                    <img src="img/Products/XCM_Manual_1396328_4379582_Egypt_EG_BAU_GW_DC_SL_Eyewear_379x304_1X._SY304_CB650636675_.jpg"
                                         class="card-img-top d-block" style="width: 100%;">
 
 
@@ -791,8 +796,8 @@
                     <a href="#nav_top" class="w-100 text-white">Back to top</a>
                 </div>
                 <div class="text-white" style="background-color: #232F3E;">
-                    <div class="container p-5">
-                        <div class="row">
+                    <div class="container py-2">
+                        <div class="row p-0">
                             <div class="col-3">
                                 <h6 class="fw-bold">Get to Know Us</h6>
                                 <h6>About Amazon</h6>
@@ -825,7 +830,7 @@
                     </div>
                     <hr>
                     <div class="d-flex justify-content-center p-5">
-                        <img src="NicePng_amazon-logo-png_167642.png" alt="" width="100px" height="33px" class="">
+                        <img src="img/NicePng_amazon-logo-png_167642.png" alt="" width="100" height="33" class="img-fluid">
                     </div>
                 </div>
             </footer>
@@ -842,7 +847,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="main.js"></script>
 </body>
 
 </html>
